@@ -1,0 +1,234 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.logo {
+  background-color: rgb(196, 193, 193);
+  width: 100%;
+  position: relative;
+}
+
+.logo header {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  margin-right: auto; 
+}
+
+.logo h2 {
+  background-color:  rgb(182, 181, 181); 
+  padding: 0;
+  text-align-last: justify;
+}
+
+.navbars {
+  display: inline-block;
+  width: 84%;
+  margin: auto;
+  margin-right: 50px;
+  padding: 20px;
+  border: 3px solid #000000;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: large;
+  border-radius: 15px;
+  background-color: #a8a6a6;
+}
+
+.navbars ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.navbars ul li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.navbars ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.navbars ul li a:hover {
+  color: red;
+}
+
+.detail{
+  margin-left: 10%;
+  margin-top: 12%;
+  background-color: rgb(0, 0, 0);
+  border-radius: 80px;
+}
+
+.detail h1{
+  font-size: 50px;
+  color: #fdfdfd;
+  margin-bottom: 20px;
+}
+
+.detail p{
+  color: #ffffff;
+  line-height: 22px;
+}
+
+.detail a{
+  background-color: #6e1616;
+  padding:10px 18px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  display: inline-block;
+  margin: 30px 0;
+  border-radius: 5px;
+}
+
+.detail a:hover{
+  background-color: red;
+  transition: .6s;
+  transform: scale(1.1); /* Increase the size of the icon */
+  animation-play-state: paused; /* Stop the animation */
+}
+
+.detail_about {
+  margin-left: 8%;
+  margin-top: -50px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.detail_about h1{
+  font-size: 50px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  margin-top: 90px;
+}
+
+span {
+  color: #ca3232;
+}
+
+.detail_about p{
+  color: #ffffff;
+  line-height: 20px;
+}
+
+.detail_contact{
+  margin-left: 8%;
+  margin-top: 100px;
+}
+
+.detail_contact h1{
+  font-size: 50px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.detail_contact p{
+  color: #ffffff;
+  line-height: 22px;
+}
+
+.detail_contact a{
+  background-color:  #6e1616;
+  padding:10px 18px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  display: inline-block;
+  margin: 30px 0;
+  border-radius: 5px;
+}
+
+.detail_contact a:hover{
+  background-color: red;
+  transition: .6s;
+  transform: scale(1.1); /* Increase the size of the icon */
+  animation-play-state: paused; /* Stop the animation */
+}
+
+.images{
+  width: 45%;
+  height: 80%;
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+}
+
+.images img{
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  bottom: -25px;
+  transform: translateX(-50%);
+  transition: bottom 1s, left 1s;
+}
+
+.images:hover .shape{
+  bottom: 50px;
+}
+
+.images:hover .klenth{
+  left: 42%;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  padding: 1px 0;
+  text-align: center;
+}
+
+.social-buttons {
+  display: inline-block;
+}
+
+.social-button {
+  display: inline-block;
+  background-color: #3b5998; /* Facebook blue */
+  color: #fff;
+  padding: 0;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 0;
+  margin-right: 10px;
+  transition: transform 0.3s, font-size 0.3s;
+}
+
+.social-button i {
+  font-size: 15px;
+  line-height: 26px;
+  margin: 0;
+  padding: 0;
+}
+
+.facebook {
+  background-color: #3b5998; /* Facebook blue */
+}
+
+.instagram {
+  background-color: #C13584; /* Instagram pink */
+}
+
+.gmail {
+  background-color: #D44638; /* Gmail red */
+}
+
+.tiktok {
+  background-color: #000; /* TikTok black */
+}
+
+.social-button:hover {
+  transform: scale(1.5); /* Increase the size of the icon */
+  animation-play-state: paused; /* Stop the animation */
+}
+
