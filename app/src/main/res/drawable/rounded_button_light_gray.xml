@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#D3D3D3" /> <!-- Light gray background color -->
+            <corners android:radius="50sp" /> <!-- Set the corner radius to 50sp for a round button -->
+        </shape>
+    </item>
+</layer-list>
